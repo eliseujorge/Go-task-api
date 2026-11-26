@@ -7,7 +7,6 @@ Um pequeno aplicativo Go que permite criar, listar, marcar como concluída e del
 - `main.go` – ponto de entrada da aplicação.
 - `go.mod` – módulo Go definido como `task-cli`.
 - `tasks.json` – arquivo de persistência (gerado e carregado automaticamente).
-- `.gitignore` – ignora binários compilados e o arquivo `tasks.json`.
 - `README.md` – este arquivo.
 
 ## Compilar
