@@ -68,16 +68,3 @@ Uso do task-cli ...
 ## Persistência
 
 As tarefas são salvas e carregadas automaticamente no arquivo `tasks.json` usando `encoding/json` e `os`. Cada tarefa guarda seu ID, status e descrição, além da data de criação em UTC.
-
-## Git
-
-Inicialize o repositório local, configure a branch principal como `main`, adicione o remote e faça o commit:
-
-```bash
-git init
-git branch -M main
-git remote add origin https://github.com/eliseujorge/Go-task-api.git
-git add .
-git commit -m "feat: cria CLI task manager em Go usando apenas stdlib"
-git push -u origin main
-```
